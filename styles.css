@@ -1,13 +1,16 @@
 body {
     font-family : 'Consolas';
     margin : 2px;
+    padding : 4px;
     /* display : flex; */
 
 }
 
+/* header  */
+
 .header {
     border-bottom : 1px solid blue;
-    border-top : 2px solid blue;
+    border-top : 4px solid blue;
     height : 3rem;
 }
 
@@ -28,15 +31,20 @@ body {
     color : white;
 }
 
+/* left content  */
+
 .left {
     border : 5px solid black;
     float : left;
     width : 40%;
 }
 
+/* right table  */
+
 .right {
-    border : 5px solid black;
+    border : 2px solid black;
     float : right;
+    padding : 12px;
     width : 40%;
 }
 
@@ -45,15 +53,11 @@ body {
     color : blue; 
 }
 
-.right-table {
-
+.right .left-col {
+    float : left;
+    font-weight : bold;
 }
 
-.right-table .left-col {
-
-}
-
-.right-table     .right-col {
+.right .right-col {
     float : right;
-    color : pink;
 }
