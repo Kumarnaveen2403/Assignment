@@ -1,5 +1,5 @@
 body {
-    font-family : 'Consolas';
+    font-family :Arial, Helvetica, sans-serif;
     margin : 2px;
     padding : 4px;
     /* display : flex; */
@@ -34,9 +34,38 @@ body {
 /* left content  */
 
 .left {
-    border : 5px solid black;
+    /* border : 5px solid black; */
     float : left;
     width : 40%;
+}
+
+.boxes {
+    display : flex;
+    /* align-items : auto; */
+    justify-content: space-between;
+    padding : 16px;
+}
+
+.box {
+    align-content : center;
+    border : 1px solid blue;
+    display : inline-block;
+    /* display : flex; */
+    /* font-style : underlined; */
+    /* justify-content: center; */
+    height : 70px;
+    /* vertical-align : top; */
+    text-align:center;
+    vertical-align:middle;
+    width : 150px;
+}
+
+.box span {
+    /* margin-top : 2px; */
+    color : blue;
+    display : inline-block;
+    padding : 12px;
+    text-decoration : underline;
 }
 
 /* right table  */
@@ -44,20 +73,26 @@ body {
 .right {
     border : 2px solid black;
     float : right;
-    padding : 12px;
+    /* font-size : 16px; */
+    margin-top : 10px;
+    /* padding : 12px; */
     width : 40%;
 }
 
 .medium-header {
+    color : blue;
+    border-bottom : 1px solid black;
+    font-size : 16px;
     text-align : center;
-    color : blue; 
 }
 
 .right .left-col {
     float : left;
     font-weight : bold;
+    font-size : 14px;
 }
 
 .right .right-col {
     float : right;
+    font-size : 14px;
 }
