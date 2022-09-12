@@ -45,6 +45,15 @@ body {
     color : blue; 
 }
 
-.right > .left-col {
-    width : 50%;
+.right-table {
+
+}
+
+.right-table .left-col {
+
+}
+
+.right-table     .right-col {
+    float : right;
+    color : pink;
 }
