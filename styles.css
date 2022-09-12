@@ -68,6 +68,16 @@ body {
     text-decoration : underline;
 }
 
+.bottom-action-bar {
+
+}
+
+.bottom-action-bar span{
+    background-color : green;
+    display : inline-block;
+    margin : 0px;
+}
+
 /* right table  */
 
 .right {
@@ -95,4 +105,8 @@ body {
 .right .right-col {
     float : right;
     font-size : 14px;
+}
+
+.bottom-contact-bar {
+
 }
