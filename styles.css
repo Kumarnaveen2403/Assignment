@@ -68,11 +68,12 @@ body {
     text-decoration : underline;
 }
 
-.bottom-action-bar {
-
+div.bottom-action-bar {
+    height : 5px;
+    width : 200px;
 }
 
-.bottom-action-bar span{
+div.bottom-action-bar span{
     background-color : green;
     display : inline-block;
     margin : 0px;
@@ -81,12 +82,15 @@ body {
 /* right table  */
 
 .right {
-    border : 2px solid black;
+    width : 40%;
     float : right;
+}
+
+.right-table {
+    border : 2px solid black;
     /* font-size : 16px; */
     margin-top : 10px;
     /* padding : 12px; */
-    width : 40%;
 }
 
 .medium-header {
@@ -108,5 +112,5 @@ body {
 }
 
 .bottom-contact-bar {
-
+    clear : left;
 }
