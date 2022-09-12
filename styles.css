@@ -68,16 +68,22 @@ body {
     text-decoration : underline;
 }
 
-div.bottom-action-bar {
-    height : 5px;
-    width : 200px;
+div.bottom-action-bar span{
+    align-items : center;
+    background-color : green;
+    border : 1px solid black;
+    display : flex; 
+    height : 50px;
+    justify-content: center;
+    margin : 0px;
+    text-align : center;
+    width : 100px;
 }
 
-div.bottom-action-bar span{
-    background-color : green;
-    display : inline-block;
-    margin : 0px;
+div.bottom-action-bar {
+    display : flex;
 }
+
 
 /* right table  */
 
@@ -111,6 +117,19 @@ div.bottom-action-bar span{
     font-size : 14px;
 }
 
-.bottom-contact-bar {
+div.bottom-contact-bar span{
+    align-items : center;
+    background-color : green;
+    border : 1px solid black;
+    display : flex; 
     clear : left;
+    height : 50px;
+    justify-content: center;
+    margin : 0px;
+    text-align : center;
+    width : 100px;
+}
+
+div.contact-action-bar {
+    display : flex;
 }
