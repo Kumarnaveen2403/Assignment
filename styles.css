@@ -1,0 +1,50 @@
+body {
+    font-family : 'Consolas';
+    margin : 2px;
+    /* display : flex; */
+
+}
+
+.header {
+    border-bottom : 1px solid blue;
+    border-top : 2px solid blue;
+    height : 3rem;
+}
+
+.span-header {
+    color : blue;
+    display : inline-block;
+    font-size : 16px;
+    padding : 12px;
+}
+
+.span-right {
+    float : right;
+}
+
+.blue-span-button {
+    background-color: blue;
+    border-radius : 4px 0px 4px;
+    color : white;
+}
+
+.left {
+    border : 5px solid black;
+    float : left;
+    width : 40%;
+}
+
+.right {
+    border : 5px solid black;
+    float : right;
+    width : 40%;
+}
+
+.medium-header {
+    text-align : center;
+    color : blue; 
+}
+
+.right > .left-col {
+    width : 50%;
+}
