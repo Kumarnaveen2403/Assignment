@@ -51,10 +51,10 @@
     
                     <div class="input b1">
 
-                        <label>Billing Cycle <span>*</span> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-circle-plus"></i></label>
+                        <label>Billing Cycle <span>*</span>  <i class="fa-solid fa-circle-plus"></i><i class="fa-solid fa-pen-to-square"></i></label>
                         <br/>
 
-                        <select  type="date">
+                        <select style="width : 100%" type="date">
                             <option value="Nov-21 B2C|B2C" selected>Nov-21 B2C|B2C</option>
                         </select>
 
@@ -72,7 +72,7 @@
                             <option selected>AMN</option>
                         </select>
 
-                        <i class="fa-solid fa-square-xmark"></i>
+                        <i class="fa-solid fa-square-xmark input-icon"></i>
 
                     </div>
     
@@ -86,7 +86,7 @@
                             <option selected>Select Tower</option>
                         </select>
 
-                        <i class="fa-solid fa-square-xmark"></i>
+                        <i class="fa-solid fa-square-xmark input-icon"></i>
 
                     </div>
     
@@ -99,29 +99,31 @@
                             <option selected>AMN0020905 - Lokendra Kumar Sharma</option>
                         </select>
 
-                        <i class="fa-solid fa-square-xmark"></i>    
+                        <i class="fa-solid fa-square-xmark input-icon"></i>    
 
                     </div>
-    
-                    <input type="text" value="Remarks">
-    
-                    <br/>
 
-                    <input type="checkbox">
-                    <label>Provisional Bill</label>
+                    <div class="input">
+                        <input style="display : block;width : 90%" type="text" value="Remarks">
+                    </div>
+                    
+                    <div style="width : 100%" class="checkbox">
+                        <input type="checkbox"><label>Provisional Bill <i class="fa-regular fa-circle-question"></i></label>
+                    </div>
+
                 </form>
     
                 <div class="bottom-action-bar">
-                    <span>Generate</span>
-                    <span>Preview</span>
-                    <span>x</span>
-                    <span>Print</span>
-                    <span>x</span>
+                    <span style="width : 150px; background-color: red;">Generate</span>
+                    <span style="width : 100px; background-color: blue ;">Preview</span>
+                    <span style="width : 40px;">x</span>
+                    <span style="width : 80px; background-color: blue;">Print</span>
+                    <span style="width : 40px;">x</span>
                 </div>
     
             </div>
     
-<!--     
+    
            <div class="right">
     
                 <div class="right-table">
@@ -144,8 +146,8 @@
                             <span class="">Consider Payment to</span>
                         </div>
     
-                        <div>
-                            <span class="">Consider meter reading FROM | TO</span>
+                        <div style="border-bottom : none">
+                            <span  class="">Consider meter reading FROM | TO</span>
                         </div>
     
                     </div>
@@ -164,7 +166,7 @@
                             <span class="">30 Nov 2021</span>
                         </div>
     
-                        <div>
+                        <div style="border-bottom : none">
                             <span class="">01 Nov 2021 | 30 Nov 2021</span>
                         </div>
     
@@ -173,15 +175,15 @@
                 </div>
     
         
-                <div class="bottom-contact-bar">
-                    <span>-mail-</span>
-                    <span>-eye-</span>
-                    <span>-print-</span>
-                    <span>SMS</span>
-                    <span>-eye</span>
+                <div id="right-section-bottom-bar" class="bottom-action-bar">
+                    <span style="width : 150px; background-color: red;">Generate</span>
+                    <span style="width : 100px; background-color: blue ;">Preview</span>
+                    <span style="width : 40px;">x</span>
+                    <span style="width : 80px; background-color: blue;">Print</span>
+                    <span style="width : 40px;">x</span>
                 </div>
                 
-            </div> -->
+            </div>
 
         </div>
 
