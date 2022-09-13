@@ -1,78 +1,159 @@
 body {
     font-family :Arial, Helvetica, sans-serif;
-    margin : 2px;
-    padding : 4px;
+    margin : 0;
+    padding : 0;
     /* display : flex; */
+    background-color: rgb(223, 222, 222);
+}
 
+.container {
+    margin : 5px;
+    border-radius : 6px;
+    background-color : white;
+    /* display : flex; */
 }
 
 /* header  */
 
 .header {
+    /* display: flex; */
     border-bottom : 1px solid blue;
-    border-top : 4px solid blue;
+    border-top : 2px solid blue;
     height : 3rem;
+    padding : 2px;
+    width: 100%;
 }
 
 .span-header {
-    color : blue;
+    color : rgb(99, 99, 148);
     display : inline-block;
     font-size : 16px;
     padding : 12px;
 }
 
+
 .span-right {
-    float : right;
+    color : blue;
+    font-size : 16px;
+    padding : 12px;
+    float: right;
 }
 
 .blue-span-button {
-    background-color: blue;
+    background-color: rgb(93, 93, 167);
     border-radius : 4px 0px 4px;
     color : white;
+}
+
+.content-container {
+    display : flex;
 }
 
 /* left content  */
 
 .left {
-    /* border : 5px solid black; */
     float : left;
-    width : 40%;
+    width : 50%;
+    border : 1px solid red;
 }
 
 .boxes {
     display : flex;
-    /* align-items : auto; */
-    justify-content: space-between;
+    align-items : center;
     padding : 16px;
+    margin-left : 30px;
 }
 
 .box {
-    align-content : center;
-    border : 1px solid blue;
-    display : inline-block;
-    /* display : flex; */
-    /* font-style : underlined; */
-    /* justify-content: center; */
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    border : 1px solid grey;
     height : 70px;
-    /* vertical-align : top; */
+    margin-right : 30px;
     text-align:center;
-    vertical-align:middle;
     width : 150px;
 }
 
 .box span {
-    /* margin-top : 2px; */
-    color : blue;
+    color : rgb(72, 72, 150);
     display : inline-block;
     padding : 12px;
     text-decoration : underline;
+}
+
+form {
+    display : flex;
+    flex-wrap : wrap;
+}
+
+div.input {
+    width : 40%;
+}
+
+.input.b1 label i{
+    float : right;
+    padding-left : 10px;
+
+}
+
+.input label {
+    width : 100%;
+    margin-bottom : 5px;
+    font-weight : 800;
+    display : inline-block;
+    font-size : 13px;
+}
+
+.input > i {
+    display : inline-block;
+    font-size : 30px;
+    color : grey;
+}
+
+form label {
+    font-weight : 800;
+}
+
+.b1 span {
+    color : green;
+    font-weight : bold;     
+}
+
+.b2, .b4{
+    margin-left: 105px;
+}
+
+.b1, .b3 {
+    margin-left : 8px;
+}
+
+.b3, .b4 {
+    margin-top : 20px;
+}
+
+.input select {
+    padding : 6px;
+    border : 1px solid rgb(194, 189, 189);
+    width : 90%;
+}
+
+/* .input > i {
+    color : grey;
+}*/
+
+form input[type="text"] {
+    /* width : 40%; */
+    margin : 8px;
+    width : 35%;
+    height : 24px; 
+    color : grey;
 }
 
 div.bottom-action-bar span{
     align-items : center;
     background-color : green;
     border : 1px solid black;
-    display : flex; 
     height : 50px;
     justify-content: center;
     margin : 0px;
@@ -81,7 +162,7 @@ div.bottom-action-bar span{
 }
 
 div.bottom-action-bar {
-    display : flex;
+
 }
 
 
@@ -94,9 +175,7 @@ div.bottom-action-bar {
 
 .right-table {
     border : 2px solid black;
-    /* font-size : 16px; */
     margin-top : 10px;
-    /* padding : 12px; */
 }
 
 .medium-header {
@@ -121,7 +200,7 @@ div.bottom-contact-bar span{
     align-items : center;
     background-color : green;
     border : 1px solid black;
-    display : flex; 
+    /* display : flex;  */
     clear : left;
     height : 50px;
     justify-content: center;
@@ -131,5 +210,5 @@ div.bottom-contact-bar span{
 }
 
 div.contact-action-bar {
-    display : flex;
+
 }
