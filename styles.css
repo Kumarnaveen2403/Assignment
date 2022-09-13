@@ -2,7 +2,6 @@ body {
     font-family :Arial, Helvetica, sans-serif;
     margin : 0;
     padding : 0;
-    /* display : flex; */
     background-color: rgb(223, 222, 222);
 }
 
@@ -10,14 +9,12 @@ body {
     margin : 5px;
     border-radius : 6px;
     background-color : white;
-    /* display : flex; */
 }
 
 /* header  */
 
 .header {
-    /* display: flex; */
-        border-bottom : 1px solid  rgb(99, 99, 148);
+    border-bottom : 1px solid  rgb(99, 99, 148);
     border-top : 2px solid  rgb(93, 93, 167);
     height : 3rem;
     padding : 2px;
@@ -33,7 +30,7 @@ body {
 
 
 .span-right {
-    color : blue;
+    color : rgb(93, 93, 167);
     font-size : 16px;
     padding : 12px;
     float: right;
@@ -54,7 +51,6 @@ body {
 .left {
     float : left;
     width : 60%;
-    /* border : 1px solid red; */
 }
 
 .boxes {
@@ -105,12 +101,6 @@ div.input {
     font-size : 13px;
 }
 
-/* .input > i {
-    display : inline-block;
-    font-size : 30px;
-    color : grey;
-} */
-
 form label {
     font-weight : 800;
 }
@@ -133,7 +123,6 @@ form label {
 }
 
 .input-icon {
-    /* margin-top : 10px; */
     font-size : 35px;
     vertical-align: middle;
     color : grey;
@@ -150,6 +139,10 @@ div.input.b2, div.input.b4 {
     margin-left : 33px;
 }
 
+.checkbox label {
+    font-size : 15px;
+}
+
 form input[type="text"] {
     margin : 8px;
     width : 35%;
@@ -157,40 +150,29 @@ form input[type="text"] {
     color : grey;
 }
 
-div.bottom-action-bar span{
-    align-items : center;
-    background-color : green;
-    border : 1px solid black;
-    height : 50px;
-    justify-content: center;
-    margin : 0px;
-    text-align : center;
-    width : 100px;
-}
-
 div.bottom-action-bar {
+    border-radius : 10px;
     margin-bottom : 20px;
     margin-top : 30px;
     display : flex;
-    /* border : 1px solid black; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* vertical-align: middle; */
     margin-left : 15px;
 }
 
 div.bottom-action-bar span {
+    align-items : center;
+    background-color : white;
+    border : 1px solid black;
+    height : 40px;
+    justify-content: center;
+    margin : 0px;
+    text-align : center;
+    width : 100px;
     display: flex;
     height : 25px;
     align-items: center;
-    /* vertical-align: middle; */
     padding : 5px;
     border : 5px;
-    color : white;
-
 }
-
 
 /* right table  */
 
@@ -200,9 +182,8 @@ div.bottom-action-bar span {
 }
 
 .right-table {
-    border : 1px solid black;
+    border : 1px solid rgb(99, 99, 148);
     margin-top : 10px;
-    /* height : 100%; */
     height : 235px;
     width : 100%;
     border-radius: 5px;
@@ -211,7 +192,7 @@ div.bottom-action-bar span {
 
 .medium-header {
     color :  rgb(93, 93, 167);
-    border-bottom : 1px solid black;
+    border-bottom : 1px solid rgb(99, 99, 148);
     font-size : 16px;
     text-align : center;
     padding : 10px;
@@ -236,7 +217,7 @@ div.bottom-action-bar span {
 }
 
 .left-col div {
-    border-bottom : 1px solid black;
+    border-bottom : 1px solid rgb(99, 99, 148);
     width : 100%;
     padding : 8px;
     margin : 10px 10px 10px 0;
@@ -244,7 +225,7 @@ div.bottom-action-bar span {
 
 .right-col div {
     margin : 10px 10px 10px 0;
-    border-bottom : 1px solid black;
+    border-bottom : 1px solid rgb(99, 99, 148);
     width : 100%;
     padding : 8px;
     margin : 10px;
@@ -252,5 +233,5 @@ div.bottom-action-bar span {
 }
 
 #right-section-bottom-bar {
-    margin-top : 87px;
+    margin-top : 110px;
 }
